@@ -1,0 +1,2621 @@
+<head>
+    <title>Search Eternal Harvest</title>
+    <style>
+        #myInput {
+            background-position: 10px 12px; /* Position the search icon */
+            background-repeat: no-repeat; /* Do not repeat the icon image */
+            width: 100%; /* Full-width */
+            font-size: 16px; /* Increase font-size */
+            padding: 12px 20px 12px 40px; /* Add some padding */
+            border: 1px solid #ddd; /* Add a grey border */
+            margin-bottom: 12px; /* Add some space below the input */
+        }
+
+        #myTable {
+            border-collapse: collapse; /* Collapse borders */
+            width: 100%; /* Full-width */
+            border: 1px solid #ddd; /* Add a grey border */
+            font-size: 18px; /* Increase font-size */
+        }
+
+        #myTable th, #myTable td {
+            text-align: left; /* Left-align text */
+            padding: 12px; /* Add padding */
+        }
+
+        #myTable tr {
+            /* Add a bottom border to all table rows */
+            border-bottom: 1px solid #ddd;
+        }
+
+        #myTable tr.header, #myTable tr:hover {
+            /* Add a grey background color to the table header and on hover */
+            background-color: #f1f1f1;
+        }
+
+        body {
+            margin-top: 25px;
+            margin-left: 25%;
+            margin-right: 25%
+        }
+    </style>
+</head>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Souls">
+
+<table id="myTable">
+    <tr class="header">
+        <th style="width:60%;">Soul</th>
+        <th style="width:40%;">Step</th>
+    </tr>
+    <tr>
+        <td>Air Spark</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Arachnee</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Black Gobbly</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Blue Larva</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Blue Piwi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Crab</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Earth Spark</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Evil Tofu</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Fire Spark</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Green Piwi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Grey Mouse</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Moskito</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Pink Piwi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Purple Piwi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Red Piwi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Sick Arachnee</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Tofu</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Water Spark</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>White Gobbly</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Yellow Piwi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Black Tiwabbit</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Blue Jelly</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Dark Baker</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Demonic Rose</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Evil Dandelion</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Gobball</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Goblin</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Green Larva</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Kolerat</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Kwoan</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Mint Jelly</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Mush Mush</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>One-armed Bandit</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Orange Larva</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Rogue Clan Bandit</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Sewer Arachnee</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Sick Tofu</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Tiwabbit</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Tiwabbit Wosungwee</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Wild Sunflower</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Boar</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Coco Biblop</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Glukoko</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Gobball War Chief</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Green Spimush</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Indigo Biblop</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Karne Rider</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Kokonut</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Lousy Pig Shepherd</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Morello Cherry Biblop</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Mushd</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Piglet</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Pippin Biblop</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Prespic</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Pumpkwin</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Strubian Milirat</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Tikokoko</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Vampire</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Wabbit</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Yellow Turtle</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Ambusher</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Bambooto</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Blue Snapper</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Blue Turtle</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Brown Snapper</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Bulbiflor</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Bwork Magus</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Crobak</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Flowistil</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Furious Whitish Fang</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Green Snapper</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Green Turtle</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Miliboowolf</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Minoskito</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Neye</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Red Turtle</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Starfish Trooper</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Vampire Master</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>White Snapper</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Whitish Fang</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Black Wabbit</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Blue Spimush</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Brown Spimush</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Bwork</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Bwork Archer</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Crackler</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Crackrock</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Dark Miner</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Dark Rose</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Gargoyl</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Invisible Chafer</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Ishibig Pak</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Khamelerost</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Manderisha</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Red Spimush</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Skeleton Wabbit</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Strawberry Jelly</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Treechnid</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Wild Almond Dragoturkey</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Blue Scaraleaf</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Boomba</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Chafer</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Chafer Foot Soldier</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Coco Blop</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Crocodyl</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Farle's Pig</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Green Scaraleaf</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Indigo Blop</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Kloon Snapper</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Morello Cherry Blop</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Pippin Blop</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Red Scaraleaf</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Rib</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Scaratos</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Scurvion</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Strubian Sickrat</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Treechnee</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Trunknid</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>White Scaraleaf</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Aboub</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Akakwa</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Amlub</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Bulbush</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Codem</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Dark Smith</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Gink</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Gwandpa Wabbit</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Kirevam</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Kurasso Craboral</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Let Emoliug</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Lousy Pig Knight</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Mahlibuh Craboral</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Major Arachnee</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Mojeeto Craboral</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Nebgib</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Nipul</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Passaoh Craboral</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Wild Ginger Dragoturkey</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Wo Wabbit</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Boggedown Ouassingue</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Chafer Archer</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Chafer Lancer</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Dok Alako</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Elite Chafer</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Fangshu</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Grossewer Raeman</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Immature Koalak</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Kokoko</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Mahlibuh Palmflower</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Minokid</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Mojeeto Palmflower</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Osurc</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Ouassingal</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Ouassingue</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Passaoh Palmflower</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Plain Boar</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Plain Crackler</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Susej</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Venerable Treechnid</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Blokapwane</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Dragmatic</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Dragnnoyed</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Earth Kwak</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Fire Kwak</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Fungi Master</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Grossewer Rat</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Ice Kwak</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Ino-Naru</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Kanniball Jav</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Kanniball Sarbak</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Kanniball Thierry</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Kanniballbo</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Kurasso Palmflower</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Macian</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Polished Crackrock</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Shape-Shifting Dragoss</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Spitfoux</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Vetauran</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Wind Kwak</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Baka</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Blodz Uker</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Cannon Dorf</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Clay Dreggon</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Coal Dreggon</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Coco Koalak</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Coralator</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Hazwonarm</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Hyoactive Rat</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Indigo Koalak</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Limestone Dreggon</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Morello Cherry Koalak</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Mumussel</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Pippin Koalak</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Quetsnakiatl</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Raul Mops</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Shinobuubusu</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Slate Dreggon</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Sparo</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Tatatojiki</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Apero Ghost</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Barbrossa</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Boowolf</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Crocodyl Chief</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Dorgan Ation</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Ghost Hicidal</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Ghost Ominjry</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Gwass</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Kaniger</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Kido</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Kilibriss</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Kurookin</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Mufafah</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Plain Pikoko</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Plains Larva</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Plated Ghost</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Plissken</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Polished Crackler</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Warguerite</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Ze Flib</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Alabaster Dreggon</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Beaztinga</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Brown Warko</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Damadrya</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Dark Treechnee</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Dark Treechnid</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Dragostess</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Fisheralak</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Foxfyter</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Greedovore</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Koalak Forester</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Koalak Gravedigger</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Koalak Rider</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Koalak Warrior</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Kwakumber</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Moopet</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Oni</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Parashutackle</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Piralak</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Wild Golden Dragoturkey</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Barkritter</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Bloody Koalak</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Burnabwork</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Dark Pikoko</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Dragandrop</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Dragnarok</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Floramor</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Koalak Mummy</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Mabwork</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Mama Koalak</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Megabwork</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Miremop</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Nenufrog</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Purple Warko</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Rotaflor</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Weirbwork</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Wild Koalak</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Zoth Disciple</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Zoth Girl</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Zoth Warrior</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Boombardier</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Charcoal Dragoss</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Cheeken</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Clay Dragoss</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Dark Treeckler</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Drakoalak</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Equipped Chest</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Gingerocket</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Koalak Master</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Limestone Dragoss</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Mopeat</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Pushy Robot</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Reapalak</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Robionicle</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Robo Mace</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Slate Dragoss</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Titinuki</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Troolaraj</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Air Pikoko</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Bakazako</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Bangartifoux</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Drumurai</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Jiangshi-Nobi</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Lichangoro</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Light Treeckler</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Madura</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Mopy King</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Mush Mish</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Mush Rhume</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Mush Tup</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Mushmunch</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Mushnid</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Onabu-Geisha</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Snailmet</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Trumperelle</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Tsukinochi</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Zoth Master</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Zoth Sergeant</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Kaonashi</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Tsume-Bozu</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Black Rat</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Bworkette</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Deminoball</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Dragon Pig</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Famished Sunflower</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>GM Wabbit</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Golden Scarabugly</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Minotoror</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Mumminotor</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Blue Jelly</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Coco Blop</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Gobball</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Indigo Blop</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Mint Jelly</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Morello Cherry Blop</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Pippin Blop</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Royal Tofu</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Shin Larva</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Sponge Mob</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>White Rat</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Ancestral Treechnid</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Disconcerted Tynril</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Dismayed Tynril</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Gourlo the Terrible</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Great Coralator</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Hanshi</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Hell Mina</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Koolich</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Legendary Crackler</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Lord Crow</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Moon</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Moowolf</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Perfidious Tynril</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Royal Rainbow Blop</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Royal Strawberry Jelly</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Sewer Keeper</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Skeunk</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Stunned Tynril</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Tanukou� San</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Wa Wabbit</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Bworker</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Crocabulia</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Cross Strich</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Fouxnamballist</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Kimbo</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Minotot</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Ougaa</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Royal Lemon Jelly</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Silf the Greater Bherb</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Soft Oak</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Sphincter Cell</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Arachnangel the Hopeful</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Arachnekros the Aggressive</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Arakula the Carpature</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Dandel the Boy</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Famouse the Little-Known</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Gobbach the Contrapuntaler</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Gobballyhoo the Noisy</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Krabaoly the Patient</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Larvalaska the Cold</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Matmushmush the Flasher</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Moskoitus the Interruptor</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Piwi the Ermine</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Piwicker the Manly</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Piwiki the Witty</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Piwilde the Bossie</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Piwiliam the Brave</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Piwinston the Churlish</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Tofudd the Hunter</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Tofull the Optimist</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Tofulsom the Jailer</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Bakeraider the Tomb</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Bandinamit the Explosive</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Bandirty the Messy</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Eskoko the Baron</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Glukoko the Slow</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Gobballad the Romantic</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Goblimp the Bis Kit</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Hunflower the Sinful</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Jelleno the Chinny</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Jellvis the King</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Kokonan the Talker</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Koleraspootin the Anesthesialogist</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Kwoanium the Smart</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Larvadelaide the Ozie</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Larvalencia the Orange</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Roseanne the Yanker</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Serpico the Honest</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Tiwaldo the Hidden</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Tiwana the Tokin'</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Tiwascal the Wapper</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Biblokajin the Bald</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Bibloponey the Entertainer</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Biblopopo the Organiser</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Billbiblop the Great</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Boarnigen the Damasker</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Gobbalky the Stubborn</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Jackellington the Lantewn</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Karnyona the Rider</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>McWhabbit the Diehard</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Miliopold the Bloomer</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Mushdrill the Piercer</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Pigoblet the Useful</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Pigstol the Sexy</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Prestreet the Fighter</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Robiolego the Assembled</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Snowhitisha the Pure</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Spimushtache the Hairy</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Turtan'ernie the Streetwise</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Turture the Hooded</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Vamp the Impalest</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Ambushapens the Unlucky</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Bambottinit the Quiet</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Blorko the Colourful</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Bworkoder the Mazter</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Crowmanion the Primitive</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Eyemi the Narcissist</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Lord Lacedhat the Vampiric</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Lupisnockio the Woodwolf</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Milikkybum the Informer</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Milivanilli the Mime</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Minoskittle the Coloured</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Robocoop the Switched</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Snapp the Dragon</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Snapple the Wise</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Snappu the Shopkeep</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Snappy the Fishfrier</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Turticorn the Horned</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Turtrenalds the Tragic</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Wabbin the Wich</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Zorrose the Messican</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Bworak the Bohemian</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Chafaldrag the Charming</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Crackrockisree the Tiger</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Dragotitis the Painful</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Gargoyla the Paranoiac</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Jellyposukshion the Slim</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Jiminicrackler the Conscious</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Khameleltux the Tolerant</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Quippy the Equippy Chest</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Rib the Torn</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Salamaa the Henpeck</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Scarabreef the Short</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Scarahazad the Storyteller</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Scaramel the Melty</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Scaratheef the Pincher</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Speedmush the Racer</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Spimushty the Smelly</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Spimushuaia the Traveller</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Treekniddioo the Needy</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Wabbitor the Apt</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Blopal the Precious</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Blopium the Delirious</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Blopulent the Pretentious</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Blorchid the Gorgeous</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Boombora the Dangerous</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Bulbushisu the Makisan</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Chaferanho the Essential</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Chafred the Fish</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Crabaramis the One</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Crabartanian the Allforone</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Craborthos the All</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Croccyx the Bummer</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Drakokidoki the Volunteer</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Larvamatic the Pragmatic</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Pighatchoo the Electrical</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Ratatouille the Stirrer</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Scaraheath the Hanger</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Scorbison the Lonely</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Treeknidylus</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Trunkbeard the Gentle</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Abounteous the Generous</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Amlullabeye the Dreamer</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Arachma the Greek</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Chafermented the Drinker</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Chaferotix the Sixtininth</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Codemonic the Mean</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Crabathos the For</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Floristil the Pistil</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Ginsync the Hyperactive</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Gwabbit the Wunner</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Kirevampiro the Wrestler</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Lert Macraken the Used Emo</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Misskokoko the Channel</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Nebuchadnezzar the Conqueror</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Niptuk the Plasticynic</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Osurcus the Tamer</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Pygknightlion the Lousy</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Smitherz the Licker</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Suzessman the Enthusiastic</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Wowalker the Egyptian</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Boarealis the Bright</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Chaferuption the Volcanic</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Cracklerod the Old</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Crackrodilrock the Helltune</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Dokterwho the Tardisporter</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Fung Ku the Master</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Kannimantha the Maneater</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Kanniranda the Maniac</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Koaldmen the Grumpy</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Komko the Vexatious</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Minoknok the Visitor</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Naypalm the Herbivorous</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Ninnyfrog the Nice</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Ouassingiam the Tyrant</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Ouassup the Irritating</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Ougineemo the Lost</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Palmoleaf the Greasy</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Palmpilot the Yuppie</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Shamassel the Off</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Treektamak the Loud</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Akakaka the Dirty</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Baconolia the Salty</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Bakaka the Intellectual</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Dragoskovit the Barefoot</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Kannarrie the Reckless</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Kannemik the Skinny</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Kojaklator the Lollipoper</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Kwadbury the Chocolaty</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Kwakamole the Appetising</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Kwaked the Pirated</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Kwakwatic the Soaked</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Mastostroke the Strokable</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Ougathard the Fortunate</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Palmella the Hefty</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Paranotackle the Emasculated</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Quetnin the Fictional</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Rattle the Hummer</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Raul Modrid the Chulo</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Snarkapwane the Snarky</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Vetaurine the Energised</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Aperobics the Dynamic</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Arepotair the Bespectacled</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Barbrosskam the Chief</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Crackoalak the Blonde</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Dragamemnon the Deadtroyer</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Dreggat�n the Latino</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Dreggommomm the Chewer</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Dreggump the Shrimp</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Ganon the Dwarf</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Ghostabrava the Tourist</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Hazwonball the Hickler</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Jackoalak the Ripper</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Koaly the Fiddler</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Polterghaisk the Stray Soul</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Ratilla the Hun</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Snapoalak the Redhead</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Sparodi the Python</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Supergwass the Free</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Tatatojiki the Squeaky</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Warazpacho the Cherrilla</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Aftathabeep the Answerphone</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Blunder the Clumsy</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Booty the Beast</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Cheesy the Immortalised</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Chukoalak the Norris</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Crackedral the Majestic</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Crokdylann the Rebel</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Dragangora the Softy</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Felicity the Gormandiser</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Fouflay the Fallen</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Grubby the Tubby</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Heera Bighero</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Ishigood Pak the Mover</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Kanabeer the Shaken</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Kaniedoss the Giggling</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Kidodo the Extinct</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Killua the Assassin</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Mufavabeenz the Cannibal</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Orfaniel the Charmer</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Prikoko the Witless</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Dragory the Violent</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Dregguantico the Trainer</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Ezothbeitor the Neighbour</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Fisheralf the Stewart</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Floratio the Investigator</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Greetdoff the Gentleman</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Ino-Nope the Negative</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Koalarchitect the Balancing Force</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Koelloggs the Creator</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Lichangora the Immaculate</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Moops the Bubbleboy</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Oni'orses the Foolish</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Pikhoven the Deaf</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Piralhaka the Intimidator</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Popoalak the Mousibrown</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Rookin the Caped Kinster</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Titinaynay the Swayer</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Treekalack the Sad</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Treekonk the Stunned</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Warko the Inky</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>Barkricrac the Unsteady</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Bumbartifoux the Farty</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Calipzoth the Icy</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Draghouse the Cynical</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Dragorse the Wild</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Dragossiper the Nag</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Draigovsky the SocalledSwan</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Drakoamax the Mad</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Fangshui the Misspelled</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Floramodovar the Stoned</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Jackoalak the Moonwalker</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Koaldman the Garish</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Koalsen the Similar</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Mamankalak the Bibliomaniac</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Mopfeet the Circular</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Mopidyk the Mire</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Ryukualak the Bored</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Treekness the Dark</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Worka the Willful</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Zigzoth the Indecisive</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Bigbadabooum the Elementary</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Cheech the Pussycat</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Don Quizothe the Stubborn</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Drumurosh the Nosher</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Edvushmunch the Screamer</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Follikoko the Tufted</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Jianamble the Rambler</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Koalakropolis the King of the Hill</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Mushketeer the Loyal</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Mushuliet the Catapulet</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Nidsally the Mushtang</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Onabinge the Gulletfull</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Romush the Montecchi</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Saywhatinochi the Gossipy</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Snailmetalika the Garagician</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Spitfouxgolly the Surprised</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Treekstalbal the Psychic</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Trooligan the Bulldogg</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Trumpaynor the Survivor</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Zouzoth the Cuddly</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>Bakazicle the Icicle</td>
+        <td>34</td>
+    </tr>
+    <tr>
+        <td>Ginger the Clincher</td>
+        <td>34</td>
+    </tr>
+    <tr>
+        <td>Kaonuclear the Unstable</td>
+        <td>34</td>
+    </tr>
+    <tr>
+        <td>Madgang the Doctor</td>
+        <td>34</td>
+    </tr>
+    <tr>
+        <td>Roy the Rover</td>
+        <td>34</td>
+    </tr>
+    <tr>
+        <td>Tsumani the Flooder</td>
+        <td>34</td>
+    </tr>
+
+</table>
+
+<script>
+    window.myFunction = function () {
+        let input, filter, table, tr, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 1; i < tr.length; i++) {
+            let td_1 = tr[i].getElementsByTagName("td")[0];
+            let td_1_text = "";
+            if (td_1) {
+                td_1_text = td_1.childNodes[0].nodeValue;
+            }
+
+            if ((td_1_text && td_1_text.toUpperCase().startsWith(filter))) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+
+        }
+    }
+</script>
